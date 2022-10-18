@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "pages_build": "if test \"$CF_PAGES_BRANCH\" = \"master\" ; then ng build --prod ; else ng build --configuration=development ; fi ",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
